@@ -1,0 +1,236 @@
+/*font-family: 'Playfair Display', serif;*/ 
+/*font-family: 'Ubuntu', sans-serif;*/
+body{
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+color: #626262; 
+}
+/*Header Start */
+header{
+padding: 20px 0;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+overflow: hidden;
+}
+.logo {
+width: 12%;
+float: left;
+margin-top: 12px;
+}
+.logo img{
+width: 100%;
+margin-top: 10px; 
+}
+.menu {
+width: 65%;
+float: right;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+color: #626262;
+text-transform:uppercase;
+text-decoration: none;
+display: inline-block;
+margin: 0 50px;
+transition: 0.5s;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #000000;
+}
+/*header end*/
+/*banner Start*/
+.banner{
+margin-top: 80px;
+}
+.b_img{
+}
+.b_img img{
+width:100%;
+}
+/*banner End*/
+/*getaway Start*/
+.getaway{
+margin-top: 100px;
+margin-bottom: 140px;
+}
+.container2{
+width:80%;
+margin:0 auto;
+}
+.g_content{}
+.light{
+font-family:'Ubuntu', sans-serif;
+font-size:14px;
+font-weight:300;
+color:#b4ad9e;
+text-transform:uppercase;
+margin:0;
+}
+.c_title{
+font-size:30px;
+font-weight:400;
+margin:25px 0 30px;
+}
+.c_p{
+font-size: 17px;
+line-height: 25px;
+word-spacing: 1px;
+margin-top: 0;
+margin-bottom: 45px;
+}
+/*getaway end*/
+/*blog Start*/
+.part1{
+}
+.blog{
+}
+.b_content{
+overflow: hidden;
+}
+.single{
+width: 47%;
+float: left;
+}
+.single:nth-child(even){
+margin-left: 6%;
+}
+.single img{
+width: 100%;
+margin-bottom: 25px;
+}
+.mb_remove{
+margin-bottom: 128px;
+}
+/*blog end*/
+/*Contact Start*/
+.contact{
+height: 288px;
+background: #f0f0f0;
+margin-bottom: 104px;
+}
+.send{
+text-align: center;
+border:0px solid black;
+}
+.send h1{
+padding-top: 75px;
+font-size: 30px;
+}
+.s-color{
+color:#333333;
+margin:0 0 70px 0;
+}
+.s-form{
+width: 400px;
+border: 0px solid red;
+position:relative;
+margin: 0 auto;
+}
+.s-form input{
+font-family: 'Playfair Display', serif;
+font-size:14px;
+font-weight:400;
+color:#626262;
+width:345px;
+height:45px;
+border:none;
+border-bottom: 1px solid #000000;
+background: transparent;
+padding: 0 45px 0 5px;
+}
+.s-form input:focus{
+outline: none;
+}
+.s-form button{
+background: transparent;
+border: none;
+cursor: pointer;
+position:absolute;
+right: 0;
+top: 13px;
+}
+.s-form button:focus{
+outline:none;
+}
+.s-form button img{}
+/*Contact end*/
+/*button start*/
+.load{
+margin-top: 40px;
+margin-bottom: 189px;
+text-align: center;
+}
+.load button{
+width: 165px;
+height: 70px;
+background-color: white;
+border: 1px solid #626262;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+color: #626262;
+cursor: pointer;
+transition: .3s;
+}
+.load button:hover {
+background-color: #626262;
+color: white;
+}
+/*button end*/
+/*Footer start */
+.footer{
+width: 100%;
+background-color: #f0f0f0;
+}
+.terms{
+width:40%;	
+}
+.terms ul{
+}
+.terms ul li{
+list-style: none;
+float: left;
+}
+.terms ul li a{
+text-decoration: none;
+display: inline-block;
+padding: 0px 11px;
+padding-top: 60px;
+color: black;
+}
+.terms ul li:last-child a{
+padding-left: 0;
+}
+.follow{
+width:40%;
+float:right;
+margin-left: 50px;
+}
+.follow ul{
+float:right;
+}
+.follow ul li{
+list-style: none;
+float:left;
+}
+.follow ul li a{
+text-decoration: none;
+padding: 45px 11px;
+display: inline-block;
+color: black;
+}
+.follow ul li:last-child a{
+padding-left: 0px;
+}
+/*footer end*/

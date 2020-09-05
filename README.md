@@ -1,3 +1,3 @@
 # MinimoAssimentSecond
 
-Live link : https://sazithshyonton.github.io/MinimoAssimentSecond/#
+Live link : https://sazithshyonton.github.io/MinimoAssimentSecond/
